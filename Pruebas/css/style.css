@@ -1,0 +1,38 @@
+body {
+	background-color: turquoise;
+}
+.header {
+	padding: 10px;
+	border-bottom: solid 1px #eee;
+}
+.caja {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ccc;
+	border-radius: 4px;
+	border-top: solid 0px;
+}
+.footer {
+	padding: 10px;
+	border-top: solid 1px #eee;
+}
+.contenido {
+	padding: 10px;
+	border-top: solid 1px #ccc;
+}
+.primario {
+	background-color: rgb(25, 129, 119);
+	border: 0px;
+	padding: 5px;
+	color: white;
+}
+.secundario {
+	background-color: whitesmoke;
+	border: 0px;
+	padding: 5px;
+}
+p{
+    color: #222fff;
+    text-align: justify;
+}
