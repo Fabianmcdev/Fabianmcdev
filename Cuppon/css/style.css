@@ -1,0 +1,28 @@
+nav {
+	background-color: #28a745;
+
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.formulario{
+    background-color:#28a745;
+    color:white ;
+    align-items: center;
+}
+
+
+.color-base, .precio  {
+	color: #28a745;
+}
+.tarjeta{
+    width: 18rem;
+    text-align: right;
+    padding-top: 0px auto;
+    padding-bottom: 0px auto;
+    
+}
+.logo{
+    width: 30%;
+    height: 30%;
+}

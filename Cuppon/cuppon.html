@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<!--Css Propio-->
+		<link rel="stylesheet" href="css/style.css" />
+		<!--Google Fonts: Roboto-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Cuppon</title>
+	</head>
+	<body>
+	
+		<div class="fixed-top">
+			<nav class="navbar navbar-light">
+				<div class="container">
+					<img class="navbar-brand logo" src="img/logo-white.png" />
+					<button
+						class="navbar-toggler d-sm-none"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarToggleExternalContent"
+						aria-controls="navbarToggleExternalContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div class="collapse" id="navbarToggleExternalContent">
+					<div class="color-base bg-white p-4">
+						<ul>
+							<li>
+								<h5 class="h4">Ofertas</h5>
+								<span class="">Categorías</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<!--Contenedor de Productos-->
+		<div class="container">
+			<!--div para que elementos se desplieguen de forma responsiva-->
+			<div class="row g-4 py-4">
+				<!--Productos-->
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-1.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">
+								Plumón Coral Fleece estampado en modelo y tamaño a elección
+							</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-2.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">
+								Entrada para compartir + platos de fondo + postres + bebestibles
+							</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-3.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">
+								Evaluación integral + blanqueamiento dental led + limpieza + fluoración
+							</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-4.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">
+								Colación para 2 personas + postre (no incluye bebidas)
+							</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-5.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">1, 2 o 4 tickets para Stukids. Elige sucursal</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card tarjeta">
+						<img src="img/cupon-6.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">
+								San Pedro de Atacama : 1 o 2 noches en alojamiento a elección
+							</p>
+							<p class="card-text">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</p>
+							<a href="#" class="card-footer precio">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Footer-->
+		<footer class="">
+			<section class="formulario d-flex justify-content-center">
+				<form class="">
+					<h3>Recibe cupones en tu correo</h3>
+					<div class="py-3 px-3">
+						<input
+							type="text"
+							class="form-control"
+							id="exampleInputEmail1"
+							aria-describedby="emailHelp"
+							placeholder="Nombre"
+						/>
+					</div>
+					<div class="py-3 px-3">
+						<input
+							type="email"
+							class="form-control"
+							id="exampleInputPassword1"
+							placeholder="Correo Electrónico"
+						/>
+					</div>
+					<div class="d-grid gap-4 col-6 mx-auto py-3">
+						<button type="button" class="btn btn-light">Enviar</button>
+					</div>
+				</form>
+			</section>
+
+			<section class="container">
+				<div class="d-flex justify-content-center">
+					<img class="logo" src="img/logo-black.png" />
+				</div>
+				<div class="d-flex justify-content-center">
+					<a>© 2018 Cuppon Latam .Todos los derechos reservados.</a>
+				</div>
+			</section>
+		</footer>
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!--Bootstrap JS -->
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
