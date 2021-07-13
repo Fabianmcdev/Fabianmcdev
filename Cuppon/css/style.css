@@ -5,24 +5,30 @@ nav {
 body {
 	font-family: 'Roboto', sans-serif;
 }
+p{
+    text-align: right;
+
+}
+img{
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
 .formulario{
     background-color:#28a745;
     color:white ;
     align-items: center;
 }
 
-
 .color-base, .precio  {
 	color: #28a745;
 }
+
 .tarjeta{
     width: 18rem;
     text-align: right;
-    padding-top: 0px auto;
-    padding-bottom: 0px auto;
-    
 }
 .logo{
-    width: 30%;
-    height: 30%;
+    width: 8rem;
 }
